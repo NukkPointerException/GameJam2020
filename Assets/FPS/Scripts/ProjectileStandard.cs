@@ -28,7 +28,7 @@ public class ProjectileStandard : MonoBehaviour
     [Tooltip("Speed of the projectile")]
     public float speed = 20f;
     [Tooltip("Downward acceleration from gravity")]
-    public float gravityDownAcceleration = 0f;
+    public float gravityDownAcceleration = 1f;
     [Tooltip("Distance over which the projectile will correct its course to fit the intended trajectory (used to drift projectiles towards center of screen in First Person view). At values under 0, there is no correction")]
     public float trajectoryCorrectionDistance = -1;
     [Tooltip("Determines if the projectile inherits the velocity that the weapon's muzzle had when firing")]
